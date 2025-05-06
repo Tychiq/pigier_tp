@@ -89,11 +89,11 @@ const AuthForm = ({ type }: { type: FormType }) => {
               render={({ field }) => (
                 <FormItem>
                   <div className="shad-form-item">
-                    <FormLabel className="shad-form-label">Numero de table</FormLabel>
+                    <FormLabel className="shad-form-label">Numéro de table</FormLabel>
 
                     <FormControl>
                       <Input
-                        placeholder="Entrez votre numero de table     ///  Nom complet pour les enseignants"
+                        placeholder="Entrez votre numéro de table     ///  Nom complet pour les enseignants"
                         className="shad-input"
                         {...field}
                       />
