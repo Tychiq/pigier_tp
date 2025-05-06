@@ -89,7 +89,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
               render={({ field }) => (
                 <FormItem>
                   <div className="shad-form-item">
-                    <FormLabel className="shad-form-label">Numero de tabl</FormLabel>
+                    <FormLabel className="shad-form-label">Numero de table</FormLabel>
 
                     <FormControl>
                       <Input
