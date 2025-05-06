@@ -93,7 +93,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
 
                     <FormControl>
                       <Input
-                        placeholder="Entrez votre numero de table"
+                        placeholder="Entrez votre numero de table     ///  Nom complet pour les enseignants"
                         className="shad-input"
                         {...field}
                       />
